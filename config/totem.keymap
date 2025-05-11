@@ -112,8 +112,8 @@
             label = "Sym";
             bindings = <
         &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT  &kp DQT
-        &kp F1    &kp F2  &kp F3    &kp F4      &kp F5         &trans     &kp UNDER      &kp EQUAL        &trans   &kp NON_US_BACKSLASH
-&trans  &kp F6    &kp F7  &kp F8    &kp F9      &kp F10        &trans     &trans         &trans           &trans   &kp SLASH             &kp HOME
+        &trans    &trans  &trans    &trans      &trans         &trans     &kp UNDER      &kp EQUAL        &trans   &kp NON_US_BACKSLASH
+&trans  &trans    &trans  &trans    &trans      &trans         &trans     &trans         &trans           &trans   &kp SLASH             &kp HOME
                           &trans    &trans      &trans         &trans     &trans         &trans
             >;
         };
@@ -121,9 +121,9 @@
         Fun {
             label = "Fun";
             bindings = <
-        &trans  &trans  &trans  &trans  &to 5     &to 6   &trans  &trans  &trans  &kp F1
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp F10
-&trans  &trans  &trans  &trans  &trans  &to 4     &trans  &trans  &trans  &trans  &kp F20  &trans
+        &trans  &trans  &trans  &trans  &to 5     &trans  &kp F9  &kp F10  &kp F11  &kp F12
+        &trans  &trans  &trans  &trans  &to 6     &trans  &kp F5  &kp F6   &kp F7   &kp F8
+&trans  &trans  &trans  &trans  &trans  &to 4     &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
@@ -150,10 +150,10 @@
         layer_8 {
             label = "Warzone";
             bindings = <
-                &kp C       &kp NUMBER_1  &mt E NUMBER_2  &kp NUMBER_3  &mt N5 NUMBER_4    &trans       &trans  &trans  &trans  &trans
-                &kp LSHIFT  &kp A         &kp W           &kp D         &kp G              &kp LA(TAB)  &trans  &trans  &trans  &trans
-&mt TAB ESCAPE  &kp LCTRL   &kp Q         &kp S           &mt R V       &trans             &trans       &trans  &trans  &trans  &trans  &to 0
-                                          &kp K           &kp X         &trans             &trans       &trans  &trans
+         &kp C       &kp NUMBER_1  &mt E NUMBER_2  &mt R NUMBER_3  &mt N5 NUMBER_4    &trans       &trans  &trans  &trans  &trans
+         &kp LSHIFT  &kp A         &kp W           &kp D           &mt LEFT_ALT G     &kp LA(TAB)  &trans  &trans  &trans  &trans
+&kp TAB  &kp LCTRL   &kp Q         &kp S           &mt R V         &trans             &trans       &trans  &trans  &trans  &trans  &to 0
+                                   &kp K           &kp X           &trans             &trans       &trans  &trans
             >;
         };
     };
