@@ -113,7 +113,7 @@
             bindings = <
         &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT  &kp DQT
         &trans    &trans  &trans    &trans      &trans         &trans     &kp UNDER      &kp EQUAL        &trans   &kp NON_US_BACKSLASH
-&trans  &trans    &trans  &trans    &trans      &trans         &trans     &trans         &trans           &trans   &kp SLASH             &kp HOME
+&trans  &trans    &trans  &trans    &trans      &trans         &trans     &trans         &trans           &kp B    &kp SLASH             &kp HOME
                           &trans    &trans      &trans         &trans     &trans         &trans
             >;
         };
